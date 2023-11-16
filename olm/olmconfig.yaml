@@ -3,17 +3,17 @@
 ---
 annotations:
   capabilityLevel: Basic Install
-  shortDescription: AWS Elastic Disaster Recovery controller is a service controller for managing Elastic Disaster Recovery resources
+  shortDescription: AWS drs controller is a service controller for managing drs resources
     in Kubernetes
-displayName: AWS Controllers for Kubernetes - Amazon Elastic Disaster Recovery
+displayName: AWS Controllers for Kubernetes - Amazon drs
 description: |-
-  Manage Amazon Elastic Disaster Recovery resources in AWS from within your Kubernetes cluster.
+  Manage Amazon drs resources in AWS from within your Kubernetes cluster.
 
 
-  **About Amazon Elastic Disaster Recovery**
+  **About Amazon drs**
 
 
-  AWS Elastic Disaster Recovery (AWS DRS) minimizes downtime and data loss with fast, reliable recovery of on-premises and cloud-based applications using affordable storage, minimal compute, and point-in-time recovery.
+  {ADD YOUR DESCRIPTION HERE}
 
 
   **About the AWS Controllers for Kubernetes**
@@ -28,13 +28,13 @@ description: |-
 
   Please follow the following link: [Red Hat OpenShift](https://aws-controllers-k8s.github.io/community/docs/user-docs/openshift/)
 samples:
-- kind: SourceServer
+- kind: ExampleCustomKind
   spec: '{}'
-- kind: RecoveryServer
+- kind: SecondExampleCustomKind
   spec: '{}'
 maintainers:
-- name: "elastic disaster recovery maintainer team"
+- name: "drs maintainer team"
   email: "ack-maintainers@amazon.com"
 links:
-- name: Amazon Elastic Disaster Recovery Developer Resources
-  url: https://aws.amazon.com/disaster-recovery/resources/
+- name: Amazon drs Developer Resources
+  url: https://aws.amazon.com/drs/developer-resources/
