@@ -1,0 +1,6 @@
+ignore:
+  resource_names:
+      - ExtendedSourceServer
+      - LaunchConfigurationTemplate
+      - ReplicationConfigurationTemplate
+      - SourceNetwork

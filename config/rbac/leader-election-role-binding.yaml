@@ -1,0 +1,14 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  namespace: ack-system
+  name: drs-leader-election-rolebinding
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: drs-leader-election-role
+subjects:
+- kind: ServiceAccount
+  name: ack-drs-controller
+  namespace: ack-system
